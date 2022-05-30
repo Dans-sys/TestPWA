@@ -9,7 +9,7 @@ const isLocalhost = Boolean(
 );
 
 var url = window.location.href;
-var swLocation = '/twitor/sw.js';
+var swLocation = '/twittor/sw.js';
 
 if (navigator.serviceWorker) {
     if (isLocalhost) {
